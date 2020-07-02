@@ -129,7 +129,7 @@ Gráfica 1
 Row
 -----------------------------------------------------------------------
 
-### Indicadores de actualización, a nivel nacional y estatal
+### Indicadores de cobertura, a nivel nacional y estatal
 
 ```{r}
 fig <- Datos_VNM_C2 %>% 
@@ -189,7 +189,7 @@ Gráfica 2
 Row
 -----------------------------------------------------------------------
 
-### Evolución de los indicadores de actualización, a nivel nacional y estatal
+### Evolución de los indicadores de cobertura, a nivel nacional y estatal
 
 ```{r}
 fig1 <- Datos_VNM_C2 %>% 
@@ -246,7 +246,7 @@ Gráfica 3
 Row
 -----------------------------------------------------------------------
 
-### Indicadores de actualización por año, y por entidad federativa
+### Indicadores de cobertura por año, y por entidad federativa
 
 ```{r}
 fig2 <- plot_ly(Datos_VNM_C3, 
